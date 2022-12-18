@@ -1,0 +1,44 @@
+<!DOCTYOPE html>
+<html>
+<head>
+<title>js03_comentario04.htm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8"/>
+</head>
+<body>
+<h3>Comando if - else</h3>
+
+<script language="javascript">
+<!--
+/* Objetivo: Testar o uso da decisão condicional composta
+*/
+
+/* Definição das variáveis*/
+var num1;
+var num2;
+
+/* Entrada de dados*/
+num1 = parseInt(window.prompt('entre com um número: ', 'Digite o primeiro número'));
+num2 = parseInt(window.prompt('entre com um número: ', 'Digite o segundo número'));
+
+/*saída de dados*/
+document.write('Número 1 digitado: '+'num1');
+document.write('<br>Número 2 digitado: '+'num2')
+
+
+
+/* Saída de dados com classificação por decisão condicional composta */ 
+
+if(num1 >= num2){
+	document.write('A ordem dos numeros são: ' + num2 + '-' + num1);
+	
+}
+else{
+	document.write('<br>A ordem dos numeros são: ' + num1 + '-' + num2);
+	
+}
+
+</script>
+</body>
+</html>

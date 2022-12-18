@@ -1,0 +1,39 @@
+<!DOCTYOPE html>
+<html>
+<head>
+<title>js03_comentario04.htm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8"/>
+</head>
+<body>
+<h3>Comando if</h3>
+
+<script language="javascript">
+<!--
+/* Objetivo: Testar o uso da decisão condicional simples
+*/
+
+/* Definição das variáveis*/
+var num1;
+var num2;
+var num3;
+
+/* Entrada de dados*/
+num1 = window.prompt('entre com um número: ', 'Digite o primeiro número');
+num2 = window.prompt('entre com um número: ', 'Digite o segundo número');
+
+/*Processamento dos dados*/
+if(num1 >= num2){
+	num3 = num1;
+	num1 = num2;
+	num2 = num3;
+}
+
+
+/* Saída de Dados */ 
+document.write('A ordem dos números são: ' + num1 + '-' + num2); // Mensagem de saudação
+
+</script>
+</body>
+</html>
